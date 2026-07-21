@@ -1,0 +1,35 @@
+# Lonny Lot
+
+> Personal site of Lonny Lot (Lonny Kapelushnik) — engineer and builder at lonnylot.com.
+
+Lonny builds playful software, web experiments, and practical tools. This site is a simple hub linking to public projects and social presence.
+
+## Site
+
+- [Home](https://lonnylot.com/): Landing page with project links and social profile
+- [robots.txt](https://lonnylot.com/robots.txt): Crawler policy (allow all)
+- [llms.txt](https://lonnylot.com/llms.txt): This file — machine-readable overview for LLMs and agents
+
+## Projects
+
+- [Space Cadet](https://space-cadet.lonnylot.com/): Web pinball remake inspired by 3D Pinball for Windows — Space Cadet. Flippers, missions, no login required.
+- [macOS 27 — Golden Gate](https://macos27.lonnylot.com/): Interactive browser recreation of macOS 27 with responsive Liquid Glass UI and native-style apps.
+
+## Social & profiles
+
+- [X / Twitter](https://x.com/lonnylot): @lonnylot
+- [GitHub](https://github.com/lonnylot): Open source and personal projects
+
+## About Lonny
+
+- Name: Lonny Lot / Lonny Kapelushnik
+- Role: Engineer and builder (business-focused engineering background)
+- Interests: Shipping software, AI-assisted development, interactive web experiences, games, and developer tooling
+- Domain: lonnylot.com (and project subdomains under lonnylot.com)
+- Contact: Prefer public replies or DMs via X (@lonnylot)
+
+## Notes for agents
+
+- Primary public projects live on subdomains: space-cadet.lonnylot.com and macos27.lonnylot.com
+- This site is static HTML hosted on Cloudflare
+- Content here is intentionally minimal; project sites carry product-specific docs and metadata
