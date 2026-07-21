@@ -1,3 +1,13 @@
 name = "lonnylot"
 compatibility_date = "2026-07-21"
-pages_build_output_dir = "./public"
+workers_dev = true
+
+# Serve apex via Worker (more reliable for bare domain).
+# www stays on Cloudflare Pages.
+routes = [
+  { pattern = "lonnylot.com/*", zone_name = "lonnylot.com" },
+]
+
+[assets]
+directory = "./public"
+html_handling = "auto-trailing-slash"
