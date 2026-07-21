@@ -3,8 +3,8 @@
 Personal landing page for [Lonny Lot](https://lonnylot.com) — links to projects and social.
 
 **Live:** https://lonnylot.com  
-**Hosted on:** Cloudflare Workers (static assets)  
-**Workers.dev:** https://lonnylot.lonny-e64.workers.dev  
+**Hosted on:** [Cloudflare Pages](https://dash.cloudflare.com) (`lonnylot` project)  
+**Preview:** https://lonnylot.pages.dev  
 
 ## Contents
 
@@ -14,7 +14,7 @@ Personal landing page for [Lonny Lot](https://lonnylot.com) — links to project
 | `public/robots.txt` | Allow all crawlers |
 | `public/llms.txt` | Machine-readable about page for LLMs |
 | `public/_headers` | Security / cache headers |
-| `wrangler.toml` | Cloudflare Worker deploy config |
+| `wrangler.toml` | Cloudflare Pages config |
 
 ## Local preview
 
@@ -25,10 +25,10 @@ npx --yes serve public
 ## Deploy
 
 ```bash
-npx wrangler deploy
+npx wrangler pages deploy public --project-name=lonnylot --branch=master
 ```
 
-Serves `lonnylot.com/*` and `www.lonnylot.com/*` via Worker routes on the Cloudflare zone.
+Custom domains: `lonnylot.com` and `www.lonnylot.com` (DNS CNAMEs → `lonnylot.pages.dev`, proxied).
 
 ## Projects linked
 
