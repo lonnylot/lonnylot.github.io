@@ -14,6 +14,8 @@ Lonny builds playful software, web experiments, and practical tools. This site i
 
 - [Space Cadet](https://space-cadet.lonnylot.com/): Web pinball remake inspired by 3D Pinball for Windows — Space Cadet. Flippers, missions, no login required.
 - [macOS 27 — Golden Gate](https://macos27.lonnylot.com/): Interactive browser recreation of macOS 27 with responsive Liquid Glass UI and native-style apps.
+- [Is it SOTA?](https://isitsota.com/): Fully automatic AI state-of-the-art tracker — dated verdicts per category on whether a model is SOTA, computed from independent primary evidence. Run by Lare, LLC.
+- [Quiet Neighbor](https://github.com/lonnylot/QuietNeighbor): Open-source (MIT) per-app volume mixer for Mac, written in Swift.
 
 ## Social & profiles
 

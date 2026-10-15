@@ -34,4 +34,6 @@ Custom domains: `lonnylot.com` and `www.lonnylot.com` (DNS CNAMEs → `lonnylot.
 
 - [Space Cadet](https://space-cadet.lonnylot.com)
 - [macOS 27](https://macos27.lonnylot.com)
+- [Is it SOTA?](https://isitsota.com)
+- [Quiet Neighbor](https://github.com/lonnylot/QuietNeighbor)
 - [X @lonnylot](https://x.com/lonnylot)
